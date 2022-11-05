@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+
+
+}
+.img{
+height: 65px;
+    width:60px ;
+    padding-left: 80px;
+}
+.text{
+    font-size: 20px;
+    font-weight: 100 px;
+    color: white;
+    margin: 15px;
+    
+}
+
+ul{
+list-style-type: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+i{
+    margin-right: 3px;  
+
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: #128c7e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+   width: 0;
+    margin: 6px 145px;
+    
+}
+ul.menue-items{
+    display: flex;
+    align-items:center;
+    padding-right:350px ;
+
+    
+}
+ul.menue-items li{
+    margin-right: 60px;
+
+}
+ul.menue-items li a{
+    font-size: 17px;
+    font-weight:500 ;
+    color: white;
+    white-space: nowrap;
+
+}
+.phone{
+    width: 300px;
+    padding-top:40px;
+   
+
+}
+.main-area{
+width: 50%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+padding-top: 80px;
+}
+.main-area p {
+    margin-bottom: 10px;
+}
+.main-area p:nth-child(1){
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size:34px;
+    line-height: 1;
+    font-weight: 0;
+}
+.main-area p:nth-child(2){
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size:16px ;
+    width: 75%;
+    line-height: 25px;
+    color: #282828;
+}
+.main-area p:nth-child(3){
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 75%;
+    font-size: 13px;
+    opacity: 0.2;
+
+}
+.main-area li a{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    color: #1ebea5;
+}
+.main-area li img{
+    margin-right: 2px;
+    padding-right: 1px;
+    
+    align-items: center;
+
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+margin-bottom: 80px;
+
+}
+
+.box1{
+    background-image: url('images/WhatsCall2.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #d0e9ea;
+    margin-left:40px ;
+    margin-top: 40px;
+        height: 750px;
+        text-align: center;
+
+}
+.box1 h3{
+    color: #1c1e21;
+    font-size: 29px;
+    font: weight 100px;;
+    margin: 80px 0 35px 0;
+    
+}
+.box1 p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom:20px ;
+}
+.box1 span{
+    color: #1ebea5;
+    cursor:pointer ;
+}
+.box2{
+    background-image: url('images/circle.png');
+    background-repeat:no-repeat ;
+    background-position: center top 100px;
+    margin-right:40px ;
+    margin-top: 40px;
+    
+background-color: #EDF8F5;
+height: 750px;
+
+}
+.text-area2{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   padding-top: 400px;
+   text-align: center;
+}
+.text-area2 p:nth-child(1){
+    font-size: 15px;
+    font-weight: 500;
+    color: #282828;
+    opacity: 0.5;
+    letter-spacing: 3px;
+} 
+.text-area2 p:nth-child(2){
+    font-size:28px ;
+   font-weight: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1c1c1c;
+}
+.text-area2 p:nth-child(3){
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.explore{
+    border: #1ebea5 solid 2px;
+    text-align: center;
+    padding: 10px 32px;
+    border-radius: 30px;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #1ebea5;
+
+}
+.links{
+    background-color: #273443;
+    margin-top: 80px;
+
+}
+.inner-links{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px 0;
+    color: white;
+}
+.inner-links h4{
+    opacity: 0.5;
+    font-size: 14px;
+    padding-bottom: 10px;
+
+}
+
+.inner-links li{
+    padding-bottom: 10px;
+    font-size: 14px;
+
+
+}
+.inner-links li:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+.main-footer{
+    height: 60px;
+    background-color: #202e3f;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.main-footer p{
+    font-size: 12px;
+    margin-left: 30px;
+
+}
+.main-footer a{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 30px;
+
+}
