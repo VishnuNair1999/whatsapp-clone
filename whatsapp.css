@@ -16,7 +16,7 @@ height: 65px;
     font-weight: 100 px;
     color: white;
     margin: 15px;
-    padding-right: 700px; 
+    
 }
 
 ul{
@@ -44,13 +44,14 @@ i{
 .nav-items{
     display: flex;
     justify-content: space-between;
-   
+   width: 0;
     margin: 6px 145px;
     
 }
 ul.menue-items{
     display: flex;
-    align-items:center
+    align-items:center;
+    padding-right:350px ;
 
     
 }
@@ -140,7 +141,7 @@ margin-bottom: 80px;
 .box1 h3{
     color: #1c1e21;
     font-size: 29px;
-    font-weight:;
+    font: weight 100px;;
     margin: 80px 0 35px 0;
     
 }
