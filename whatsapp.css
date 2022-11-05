@@ -44,8 +44,8 @@ i{
 .nav-items{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    margin: 0 auto;
+   
+    margin: 6px 145px;
     
 }
 ul.menue-items{
@@ -55,7 +55,7 @@ ul.menue-items{
     
 }
 ul.menue-items li{
-    margin-right: 50px;
+    margin-right: 60px;
 
 }
 ul.menue-items li a{
